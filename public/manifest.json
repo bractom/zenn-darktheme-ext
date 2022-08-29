@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "dev",
   "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
   "action": {
     "default_popup": "index.html"
   }
